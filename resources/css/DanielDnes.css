@@ -1,13 +1,19 @@
 header{
     text-align: center;
 }
-nav{
+ul{
     text-align: center;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 25px;
+    list-style-type: none;
+}
+li{
+    display: inline;
 }
 section h1{
     color: #6192cd;
+    font-size: 30px;
+    text-align: center;
 }
 body{
     background-color: #f8d8af;
@@ -15,19 +21,33 @@ body{
 }
 article{
     color: #3d1f37;
-    font-size:  18px;
-    font
+    font-size:  20px;
 }
 article figcaption{
-    font-size: 12px;
+    font-size: 15px;
 }
 section{
     text-align: center;
 }
 footer{
-    color: #b73126;
+    color: #3d1f37;
+    background-color: #df5032;
     text-align: center;
     font-weight: bold;
-
-
+}
+/* unvisited link */
+a:link{
+    color: #b73126;
+}
+/* visited link */
+a:visited{
+    color: #3d1f37;
+}
+/* mouse over link */
+a:hover{
+    color: #6192cd;
+}
+/* selected link */
+a:active{
+    color: #df5032;
 }
