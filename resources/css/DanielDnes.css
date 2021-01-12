@@ -1,0 +1,32 @@
+header{
+    background-color: #2F575D;
+    color: #C4CDC1;
+    text-align: center;
+}
+nav{
+    color: #658B6F;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+section h1{
+    color: #99AEAD;
+}
+body{
+    background-color: #28363D;
+    font-family:Arial, Helvetica, sans-serif;
+}
+article{
+    color: #C4CDC1;
+}
+section{
+    text-align: center;
+}
+footer{
+    background-color: #2F575D;
+    color: #C4CDC1;
+    text-align: center;
+    font-weight: bold;
+
+
+}
