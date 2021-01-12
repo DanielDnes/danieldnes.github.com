@@ -15,6 +15,11 @@ body{
 }
 article{
     color: #3d1f37;
+    font-size:  18px;
+    font
+}
+article figcaption{
+    font-size: 12px;
 }
 section{
     text-align: center;
