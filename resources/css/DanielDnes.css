@@ -1,40 +1,71 @@
-header{
+/* Fonts */
+@font-face {
+    font-family: 'Shrikhand';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/shrikhand/v6/a8IbNovtLWfR7T7bMJwrA4KR.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+header,
+ul, h1, section, footer{
     text-align: center;
 }
+
+#Logo{
+    padding: 10px;
+}
+
 ul{
-    text-align: center;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 30px;
     list-style-type: none;
+    font-family: Shrikhand, sans-serif;
+    word-spacing: 10px;
+    padding-bottom: 15px;
 }
+
 li{
     display: inline;
 }
+
 section h1{
     color: #6192cd;
     font-size: 30px;
-    text-align: center;
+    font-family: Shrikhand, sans-serif;
+    padding: 10px;
 }
+
 body{
     background-color: #f8d8af;
-    font-family:Arial, Helvetica, sans-serif;
 }
+
 article{
     color: #3d1f37;
     font-size:  20px;
 }
+
 article figcaption{
     font-size: 15px;
+    font-family: Roboto, sans-serif;
 }
-section{
-    text-align: center;
-}
+
 footer{
     color: #3d1f37;
     background-color: #df5032;
-    text-align: center;
     font-weight: bold;
+    font-family: Roboto, sans-serif 
 }
+
 /* unvisited link */
 a:link{
     color: #b73126;
