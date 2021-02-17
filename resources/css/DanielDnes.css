@@ -17,41 +17,32 @@
 }
 
 header,
-ul, h1, section, footer{
+ul, h1, article{
     text-align: center;
-}
-
-#Logo{
-    padding: 10px;
 }
 
 ul{
     font-weight: bold;
     font-size: 30px;
-    list-style-type: none;
     font-family: Shrikhand, sans-serif;
     word-spacing: 10px;
-    padding-bottom: 15px;
 }
 
 li{
     display: inline;
 }
 
-section h1{
-    color: #6192cd;
-    font-size: 30px;
-    font-family: Shrikhand, sans-serif;
-    padding: 10px;
-}
-
 body{
     background-color: #f8d8af;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
 }
-
+label,
 article{
     color: #3d1f37;
     font-size:  20px;
+    margin-top: 60px;
 }
 
 article figcaption{
@@ -59,13 +50,42 @@ article figcaption{
     font-family: Roboto, sans-serif;
 }
 
-footer{
-    color: #3d1f37;
-    background-color: #df5032;
-    font-weight: bold;
-    font-family: Roboto, sans-serif 
-}
 
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+ 
+  input[type=submit] {
+    background-color: #df5032;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+  input[type=submit]:hover {
+    background-color: #df5032;
+  }
+  
+ 
+  .container {
+    border-radius: 5px;
+    background-color: #f8d8af;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: 0px;
+  }
+  
 /* unvisited link */
 a:link{
     color: #b73126;
